@@ -195,6 +195,18 @@
   background-color: gray;
 }
 
+/* 빠른로그인 버튼 */
+.quickLogin{
+  width: 200px;
+  height: 70px;
+  border: 1px solid black;
+}
+
+.quickLogin:hover{
+  cursor: pointer;
+}
+
+
 
 
 
@@ -220,3 +232,22 @@
 
 /* ---------------------------------------------------------------------------- */
 /* 로그인 페이지에 사용되는 CSS */
+
+/* 로그인 컨테이너, 박스 */
+.loginContainer {
+  display: flex;
+  align-items: center;
+}
+
+.loginBox {
+  margin-right: 20px; /* 테이블과 버튼 사이의 간격 조절 */
+}
+
+#loginBtn{
+  width: 75px;
+  height: 50px;
+}
+
+#loginBtn:hover{
+  cursor: pointer;
+}

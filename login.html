@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>로그인 페이지</title>
   <link rel="stylesheet" href="/mainDemo.css">
 </head>
+
 <body>
-  
+
   <form action="#" class="loginForm">
-    <input type="text" id="inputEmail">
+
+    <div class="loginContainer">
+      <table class="loginBox">
+
+        <tr>
+          <th>이메일 입력</th>
+          <td>:</td>
+          <td><input type="text" name="inputEmail" id="inputEmail"></td>
+        </tr>
+
+        <tr>
+          <th>비밀번호 입력</th>
+          <td>:</td>
+          <td><input type="text" name="inputPw" id="inputPw"></td>
+        </tr>
+
+      </table>
+
+      <button id="loginBtn">로그인</button>
+    </div>
+
   </form>
 
-  
+
+
 
 
 </body>
+
 </html>
